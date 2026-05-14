@@ -1,0 +1,32 @@
+table: transactions
+primary_key: transaction_id
+required_columns:
+  - transaction_id
+  - customer_id
+  - transaction_date
+  - amount
+  - payment_status
+required_non_null:
+  - transaction_id
+  - customer_id
+  - transaction_date
+  - amount
+  - payment_status
+unique_columns:
+  - transaction_id
+allowed_values:
+  payment_status:
+    - completed
+    - pending
+    - archivable
+    - error
+date_columns:
+  - transaction_date
+numeric_positive:
+  - amount
+foreign_keys:
+  - column: customer_id
+    reference_table: customers
+    reference_column: customer_id
+classification: confidential
+retention_rule: archive_after_3_years

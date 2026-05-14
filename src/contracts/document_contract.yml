@@ -1,0 +1,37 @@
+table: documents
+primary_key: document_id
+required_columns:
+  - document_id
+  - customer_id
+  - document_title
+  - document_type
+  - created_date
+  - classification
+  - keywords
+required_non_null:
+  - document_id
+  - customer_id
+  - document_title
+  - document_type
+  - created_date
+  - classification
+unique_columns:
+  - document_id
+allowed_values:
+  classification:
+    - public
+    - internal
+    - confidential
+    - restricted
+  document_type:
+    - contract
+    - invoice
+    - support_record
+date_columns:
+  - created_date
+foreign_keys:
+  - column: customer_id
+    reference_table: customers
+    reference_column: customer_id
+classification: restricted
+retention_rule: index_and_archive_by_document_class

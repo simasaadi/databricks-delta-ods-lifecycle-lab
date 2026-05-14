@@ -1,0 +1,23 @@
+table: customers
+primary_key: customer_id
+required_columns:
+  - customer_id
+  - full_name
+  - email
+  - status
+  - created_date
+required_non_null:
+  - customer_id
+  - full_name
+  - email
+  - status
+unique_columns:
+  - customer_id
+allowed_values:
+  status:
+    - active
+    - inactive
+date_columns:
+  - created_date
+classification: confidential
+retention_rule: retain_while_customer_active
