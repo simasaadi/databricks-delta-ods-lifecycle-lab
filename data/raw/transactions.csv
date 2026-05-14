@@ -1,0 +1,5 @@
+transaction_id,customer_id,transaction_date,amount,payment_status
+T1001,C001,2025-01-10,245.75,completed
+T1002,C002,2025-01-12,980.0,completed
+T1003,C003,2021-06-18,120.5,archivable
+T1004,C999,2025-02-01,-45.0,error

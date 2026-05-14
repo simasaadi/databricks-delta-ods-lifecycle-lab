@@ -1,0 +1,4 @@
+document_id,customer_id,document_title,document_type,created_date,classification,keywords
+D001,C001,Service Agreement,contract,2024-01-20,confidential,agreement service contract
+D002,C002,Invoice January,invoice,2025-01-15,internal,invoice payment billing
+D003,C003,Archived Support Record,support_record,2020-04-08,restricted,support archive customer issue

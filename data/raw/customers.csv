@@ -1,0 +1,5 @@
+customer_id,full_name,email,status,created_date
+C001,Amina Patel,amina.patel@example.com,active,2024-01-15
+C002,Daniel Chen,daniel.chen@example.com,active,2024-02-20
+C003,Maya Singh,,inactive,2023-11-05
+C004,Omar Wilson,omar.wilson@example.com,active,2024-03-10
