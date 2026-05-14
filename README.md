@@ -100,6 +100,17 @@ Run tests only:
 - Databricks-style bronze, silver, gold architecture
 - Delta Lake-inspired ODS and lifecycle patterns
 
+
+## Databricks-specific assets
+
+This repository now includes Databricks-oriented implementation assets:
+
+- `src/pipelines/spark_bronze_ingestion.py` shows a Spark-native bronze ingestion pattern.
+- `sql/delta_merge_examples.sql` includes Delta Lake table definitions, MERGE examples, schema evolution, retention, OPTIMIZE, ZORDER, and VACUUM examples.
+- `sql/performance_queries.sql` includes Databricks / Delta performance tuning query patterns.
+- `notebooks/01_bronze_ingestion.ipynb` provides a Databricks-style notebook version of the bronze ingestion workflow.
+- `docs/architecture.md` maps the local repo structure to Databricks lakehouse concepts.
+
 ## Current status
 
 The project currently includes a working end-to-end local pipeline, governance evidence outputs, automated tests, and GitHub Actions CI.
@@ -107,3 +118,4 @@ The project currently includes a working end-to-end local pipeline, governance e
 ## Future improvements
 
 Planned enhancements include adding Spark-native transformations, Delta Lake merge examples, performance optimization examples, visual architecture diagrams, and optional Databricks notebook exports.
+

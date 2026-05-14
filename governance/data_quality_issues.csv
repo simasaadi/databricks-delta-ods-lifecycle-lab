@@ -1,4 +1,4 @@
 run_timestamp_utc,table,check_type,column,status,failed_records,message
-2026-05-14T18:08:29.198466+00:00,customers,non_null,email,FAIL,1,1 null values found.
-2026-05-14T18:08:29.207119+00:00,transactions,positive_numeric,amount,FAIL,1,1 non-positive or invalid numeric values found.
-2026-05-14T18:08:29.207119+00:00,transactions,foreign_key,customer_id,FAIL,1,1 records do not match customers.customer_id.
+2026-05-14T18:13:00.586346+00:00,customers,non_null,email,FAIL,1,1 null values found.
+2026-05-14T18:13:00.592168+00:00,transactions,positive_numeric,amount,FAIL,1,1 non-positive or invalid numeric values found.
+2026-05-14T18:13:00.592168+00:00,transactions,foreign_key,customer_id,FAIL,1,1 records do not match customers.customer_id.

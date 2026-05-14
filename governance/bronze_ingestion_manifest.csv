@@ -1,4 +1,4 @@
 bronze_table,source_file,records_ingested,columns_after_ingestion,batch_id,output_path
-customers,customers.csv,4,9,BRZ-20260514180828,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\bronze\customers\customers_BRZ-20260514180828.parquet
-documents,documents.csv,3,11,BRZ-20260514180828,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\bronze\documents\documents_BRZ-20260514180828.parquet
-transactions,transactions.csv,4,9,BRZ-20260514180828,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\bronze\transactions\transactions_BRZ-20260514180828.parquet
+customers,customers.csv,4,9,BRZ-20260514181259,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\bronze\customers\customers_BRZ-20260514181259.parquet
+documents,documents.csv,3,11,BRZ-20260514181259,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\bronze\documents\documents_BRZ-20260514181259.parquet
+transactions,transactions.csv,4,9,BRZ-20260514181259,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\bronze\transactions\transactions_BRZ-20260514181259.parquet

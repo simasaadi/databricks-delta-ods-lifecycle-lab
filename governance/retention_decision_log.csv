@@ -1,5 +1,5 @@
 transaction_id,customer_id,transaction_date,amount,payment_status,_bronze_ingested_at_utc,_bronze_batch_id,_source_file,_record_hash,archive_rule_applied,archive_decision,archived_at_utc,archive_storage_zone
-T1003,C003,2021-06-18,120.5,archivable,2026-05-14T18:08:28.379121+00:00,BRZ-20260514180828,transactions.csv,7018fd17564857a298381300d9948e88b636bad0c4b0ea1ee51fa6f49f77bf60,older_than_3_years;payment_status_archivable,archive,2026-05-14T18:08:31.816423+00:00,data/archive/transactions
-T1001,C001,2025-01-10,245.75,completed,2026-05-14T18:08:28.379121+00:00,BRZ-20260514180828,transactions.csv,c982309171bf86a8396e8c85f1642bc741bd99967f062d4a380061e4b763eecd,,retain_active,,
-T1002,C002,2025-01-12,980.0,completed,2026-05-14T18:08:28.379121+00:00,BRZ-20260514180828,transactions.csv,984ff9af26a0a699f89ab5b38457bd14f2c4b293f98c8b0ce003218f963c5c70,,retain_active,,
-T1004,C999,2025-02-01,-45.0,error,2026-05-14T18:08:28.379121+00:00,BRZ-20260514180828,transactions.csv,96da696a7c531288880c127306b0566526343b28422d26b4f4922ae95c50b18f,,retain_active,,
+T1003,C003,2021-06-18,120.5,archivable,2026-05-14T18:12:59.748144+00:00,BRZ-20260514181259,transactions.csv,f76789e73ee4546a93b1c58a3fc4f5385686d96003f59b95d02440381ec71429,older_than_3_years;payment_status_archivable,archive,2026-05-14T18:13:03.058197+00:00,data/archive/transactions
+T1001,C001,2025-01-10,245.75,completed,2026-05-14T18:12:59.748144+00:00,BRZ-20260514181259,transactions.csv,86af199adad7ceb98bfa760008242a5bf88d13a1ddb129a411c09f74bb03fc6c,,retain_active,,
+T1002,C002,2025-01-12,980.0,completed,2026-05-14T18:12:59.748144+00:00,BRZ-20260514181259,transactions.csv,682f151d52dcdd47f4da6b28dae211db7bc23f6cb766e459309374c6a68dd9b9,,retain_active,,
+T1004,C999,2025-02-01,-45.0,error,2026-05-14T18:12:59.748144+00:00,BRZ-20260514181259,transactions.csv,b0aab37ff82cff9126ea42cb1fcdeb96012533b394525f9f49f294287ab6ce39,,retain_active,,

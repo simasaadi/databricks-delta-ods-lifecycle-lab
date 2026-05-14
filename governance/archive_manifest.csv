@@ -1,2 +1,2 @@
 archive_batch_id,source_table,source_layer,archive_rule,records_reviewed,records_archived,records_retained_active,archive_output_path,review_completed_at_utc
-ARCH-20260514180831,transactions,bronze,older_than_3_years OR payment_status_archivable,4,1,3,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\archive\transactions\transactions_archive_20260514180831.parquet,2026-05-14T18:08:31.846299+00:00
+ARCH-20260514181303,transactions,bronze,older_than_3_years OR payment_status_archivable,4,1,3,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\archive\transactions\transactions_archive_20260514181303.parquet,2026-05-14T18:13:03.106854+00:00
