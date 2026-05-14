@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+env:
+  PYTHONPATH: ${{ github.workspace }}
+
 jobs:
   validate-pipeline:
     runs-on: ubuntu-latest
@@ -21,10 +24,17 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Show environment
+        run: |
+          pwd
+          python --version
+          ls -la
+          ls -la src
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m pip install -r requirements.txt
 
       - name: Generate sample data
         run: python scripts/generate_sample_data.py
@@ -50,4 +60,4 @@ jobs:
           python -m src.indexing.search_demo
 
       - name: Run tests
-        run: pytest
+        run: python -m pytest
