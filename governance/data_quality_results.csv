@@ -1,46 +1,46 @@
 run_timestamp_utc,table,check_type,column,status,failed_records,message
-2026-05-14T18:02:49.732708+00:00,customers,required_column,customer_id,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,customers,required_column,full_name,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,customers,required_column,email,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,customers,required_column,status,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,customers,required_column,created_date,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,customers,non_null,customer_id,PASS,0,0 null values found.
-2026-05-14T18:02:49.732708+00:00,customers,non_null,full_name,PASS,0,0 null values found.
-2026-05-14T18:02:49.732708+00:00,customers,non_null,email,FAIL,1,1 null values found.
-2026-05-14T18:02:49.732708+00:00,customers,non_null,status,PASS,0,0 null values found.
-2026-05-14T18:02:49.732708+00:00,customers,unique,customer_id,PASS,0,0 duplicate values found.
-2026-05-14T18:02:49.732708+00:00,customers,allowed_values,status,PASS,0,0 invalid values found.
-2026-05-14T18:02:49.732708+00:00,customers,valid_date,created_date,PASS,0,0 invalid dates found.
-2026-05-14T18:02:49.732708+00:00,documents,required_column,document_id,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,documents,required_column,customer_id,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,documents,required_column,document_title,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,documents,required_column,document_type,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,documents,required_column,created_date,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,documents,required_column,classification,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,documents,required_column,keywords,PASS,0,Required column exists.
-2026-05-14T18:02:49.732708+00:00,documents,non_null,document_id,PASS,0,0 null values found.
-2026-05-14T18:02:49.732708+00:00,documents,non_null,customer_id,PASS,0,0 null values found.
-2026-05-14T18:02:49.732708+00:00,documents,non_null,document_title,PASS,0,0 null values found.
-2026-05-14T18:02:49.737492+00:00,documents,non_null,document_type,PASS,0,0 null values found.
-2026-05-14T18:02:49.737492+00:00,documents,non_null,created_date,PASS,0,0 null values found.
-2026-05-14T18:02:49.737492+00:00,documents,non_null,classification,PASS,0,0 null values found.
-2026-05-14T18:02:49.737492+00:00,documents,unique,document_id,PASS,0,0 duplicate values found.
-2026-05-14T18:02:49.737492+00:00,documents,allowed_values,classification,PASS,0,0 invalid values found.
-2026-05-14T18:02:49.737492+00:00,documents,allowed_values,document_type,PASS,0,0 invalid values found.
-2026-05-14T18:02:49.739047+00:00,documents,valid_date,created_date,PASS,0,0 invalid dates found.
-2026-05-14T18:02:49.739047+00:00,documents,foreign_key,customer_id,PASS,0,0 records do not match customers.customer_id.
-2026-05-14T18:02:49.739047+00:00,transactions,required_column,transaction_id,PASS,0,Required column exists.
-2026-05-14T18:02:49.739047+00:00,transactions,required_column,customer_id,PASS,0,Required column exists.
-2026-05-14T18:02:49.739047+00:00,transactions,required_column,transaction_date,PASS,0,Required column exists.
-2026-05-14T18:02:49.739047+00:00,transactions,required_column,amount,PASS,0,Required column exists.
-2026-05-14T18:02:49.739047+00:00,transactions,required_column,payment_status,PASS,0,Required column exists.
-2026-05-14T18:02:49.739047+00:00,transactions,non_null,transaction_id,PASS,0,0 null values found.
-2026-05-14T18:02:49.739047+00:00,transactions,non_null,customer_id,PASS,0,0 null values found.
-2026-05-14T18:02:49.739047+00:00,transactions,non_null,transaction_date,PASS,0,0 null values found.
-2026-05-14T18:02:49.739937+00:00,transactions,non_null,amount,PASS,0,0 null values found.
-2026-05-14T18:02:49.739937+00:00,transactions,non_null,payment_status,PASS,0,0 null values found.
-2026-05-14T18:02:49.739937+00:00,transactions,unique,transaction_id,PASS,0,0 duplicate values found.
-2026-05-14T18:02:49.739937+00:00,transactions,allowed_values,payment_status,PASS,0,0 invalid values found.
-2026-05-14T18:02:49.739937+00:00,transactions,valid_date,transaction_date,PASS,0,0 invalid dates found.
-2026-05-14T18:02:49.740917+00:00,transactions,positive_numeric,amount,FAIL,1,1 non-positive or invalid numeric values found.
-2026-05-14T18:02:49.740917+00:00,transactions,foreign_key,customer_id,FAIL,1,1 records do not match customers.customer_id.
+2026-05-14T18:08:29.197334+00:00,customers,required_column,customer_id,PASS,0,Required column exists.
+2026-05-14T18:08:29.197334+00:00,customers,required_column,full_name,PASS,0,Required column exists.
+2026-05-14T18:08:29.197334+00:00,customers,required_column,email,PASS,0,Required column exists.
+2026-05-14T18:08:29.197334+00:00,customers,required_column,status,PASS,0,Required column exists.
+2026-05-14T18:08:29.197334+00:00,customers,required_column,created_date,PASS,0,Required column exists.
+2026-05-14T18:08:29.198466+00:00,customers,non_null,customer_id,PASS,0,0 null values found.
+2026-05-14T18:08:29.198466+00:00,customers,non_null,full_name,PASS,0,0 null values found.
+2026-05-14T18:08:29.198466+00:00,customers,non_null,email,FAIL,1,1 null values found.
+2026-05-14T18:08:29.198466+00:00,customers,non_null,status,PASS,0,0 null values found.
+2026-05-14T18:08:29.198466+00:00,customers,unique,customer_id,PASS,0,0 duplicate values found.
+2026-05-14T18:08:29.198466+00:00,customers,allowed_values,status,PASS,0,0 invalid values found.
+2026-05-14T18:08:29.200479+00:00,customers,valid_date,created_date,PASS,0,0 invalid dates found.
+2026-05-14T18:08:29.202489+00:00,documents,required_column,document_id,PASS,0,Required column exists.
+2026-05-14T18:08:29.202489+00:00,documents,required_column,customer_id,PASS,0,Required column exists.
+2026-05-14T18:08:29.202489+00:00,documents,required_column,document_title,PASS,0,Required column exists.
+2026-05-14T18:08:29.202489+00:00,documents,required_column,document_type,PASS,0,Required column exists.
+2026-05-14T18:08:29.202489+00:00,documents,required_column,created_date,PASS,0,Required column exists.
+2026-05-14T18:08:29.202489+00:00,documents,required_column,classification,PASS,0,Required column exists.
+2026-05-14T18:08:29.202489+00:00,documents,required_column,keywords,PASS,0,Required column exists.
+2026-05-14T18:08:29.202489+00:00,documents,non_null,document_id,PASS,0,0 null values found.
+2026-05-14T18:08:29.202489+00:00,documents,non_null,customer_id,PASS,0,0 null values found.
+2026-05-14T18:08:29.202489+00:00,documents,non_null,document_title,PASS,0,0 null values found.
+2026-05-14T18:08:29.202489+00:00,documents,non_null,document_type,PASS,0,0 null values found.
+2026-05-14T18:08:29.202489+00:00,documents,non_null,created_date,PASS,0,0 null values found.
+2026-05-14T18:08:29.202489+00:00,documents,non_null,classification,PASS,0,0 null values found.
+2026-05-14T18:08:29.202489+00:00,documents,unique,document_id,PASS,0,0 duplicate values found.
+2026-05-14T18:08:29.202489+00:00,documents,allowed_values,classification,PASS,0,0 invalid values found.
+2026-05-14T18:08:29.202489+00:00,documents,allowed_values,document_type,PASS,0,0 invalid values found.
+2026-05-14T18:08:29.204496+00:00,documents,valid_date,created_date,PASS,0,0 invalid dates found.
+2026-05-14T18:08:29.204496+00:00,documents,foreign_key,customer_id,PASS,0,0 records do not match customers.customer_id.
+2026-05-14T18:08:29.204496+00:00,transactions,required_column,transaction_id,PASS,0,Required column exists.
+2026-05-14T18:08:29.204496+00:00,transactions,required_column,customer_id,PASS,0,Required column exists.
+2026-05-14T18:08:29.204496+00:00,transactions,required_column,transaction_date,PASS,0,Required column exists.
+2026-05-14T18:08:29.204496+00:00,transactions,required_column,amount,PASS,0,Required column exists.
+2026-05-14T18:08:29.204496+00:00,transactions,required_column,payment_status,PASS,0,Required column exists.
+2026-05-14T18:08:29.204496+00:00,transactions,non_null,transaction_id,PASS,0,0 null values found.
+2026-05-14T18:08:29.204496+00:00,transactions,non_null,customer_id,PASS,0,0 null values found.
+2026-05-14T18:08:29.204496+00:00,transactions,non_null,transaction_date,PASS,0,0 null values found.
+2026-05-14T18:08:29.204496+00:00,transactions,non_null,amount,PASS,0,0 null values found.
+2026-05-14T18:08:29.204496+00:00,transactions,non_null,payment_status,PASS,0,0 null values found.
+2026-05-14T18:08:29.204496+00:00,transactions,unique,transaction_id,PASS,0,0 duplicate values found.
+2026-05-14T18:08:29.204496+00:00,transactions,allowed_values,payment_status,PASS,0,0 invalid values found.
+2026-05-14T18:08:29.206277+00:00,transactions,valid_date,transaction_date,PASS,0,0 invalid dates found.
+2026-05-14T18:08:29.207119+00:00,transactions,positive_numeric,amount,FAIL,1,1 non-positive or invalid numeric values found.
+2026-05-14T18:08:29.207119+00:00,transactions,foreign_key,customer_id,FAIL,1,1 records do not match customers.customer_id.

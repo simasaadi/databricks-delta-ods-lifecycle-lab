@@ -1,10 +1,10 @@
 document_id,document_title,document_type,classification,access_tier,search_term,index_status,indexed_at_utc
-D001,Service Agreement,contract,confidential,approved_users_only,agreement,indexed,2026-05-14T18:02:53.612286+00:00
-D001,Service Agreement,contract,confidential,approved_users_only,confidential,indexed,2026-05-14T18:02:53.612286+00:00
-D001,Service Agreement,contract,confidential,approved_users_only,contract,indexed,2026-05-14T18:02:53.612286+00:00
-D001,Service Agreement,contract,confidential,approved_users_only,service,indexed,2026-05-14T18:02:53.612286+00:00
-D002,Invoice January,invoice,internal,staff_only,billing,indexed,2026-05-14T18:02:53.612286+00:00
-D002,Invoice January,invoice,internal,staff_only,internal,indexed,2026-05-14T18:02:53.612286+00:00
-D002,Invoice January,invoice,internal,staff_only,invoice,indexed,2026-05-14T18:02:53.612286+00:00
-D002,Invoice January,invoice,internal,staff_only,january,indexed,2026-05-14T18:02:53.612286+00:00
-D002,Invoice January,invoice,internal,staff_only,payment,indexed,2026-05-14T18:02:53.612286+00:00
+D001,Service Agreement,contract,confidential,approved_users_only,agreement,indexed,2026-05-14T18:08:32.656249+00:00
+D001,Service Agreement,contract,confidential,approved_users_only,confidential,indexed,2026-05-14T18:08:32.656249+00:00
+D001,Service Agreement,contract,confidential,approved_users_only,contract,indexed,2026-05-14T18:08:32.656249+00:00
+D001,Service Agreement,contract,confidential,approved_users_only,service,indexed,2026-05-14T18:08:32.656249+00:00
+D002,Invoice January,invoice,internal,staff_only,billing,indexed,2026-05-14T18:08:32.656249+00:00
+D002,Invoice January,invoice,internal,staff_only,internal,indexed,2026-05-14T18:08:32.656249+00:00
+D002,Invoice January,invoice,internal,staff_only,invoice,indexed,2026-05-14T18:08:32.656249+00:00
+D002,Invoice January,invoice,internal,staff_only,january,indexed,2026-05-14T18:08:32.656249+00:00
+D002,Invoice January,invoice,internal,staff_only,payment,indexed,2026-05-14T18:08:32.656249+00:00
