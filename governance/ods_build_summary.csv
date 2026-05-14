@@ -1,0 +1,4 @@
+table_name,record_count,column_count,output_path,built_at_utc
+ods_customer_profile,3,12,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\gold\ods_customer_profile\ods_customer_profile.parquet,2026-05-14T18:02:51.708930+00:00
+ods_transaction_fact,2,10,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\gold\ods_transaction_fact\ods_transaction_fact.parquet,2026-05-14T18:02:51.708930+00:00
+ods_document_index,2,12,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\gold\ods_document_index\ods_document_index.parquet,2026-05-14T18:02:51.708930+00:00

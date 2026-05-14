@@ -1,0 +1,4 @@
+table,clean_records,rejected_records,output_path
+customers,3,1,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\silver\customers\customers_silver.parquet
+transactions,2,2,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\silver\transactions\transactions_silver.parquet
+documents,2,1,C:\Users\USER\Documents\GitHub\databricks-delta-ods-lifecycle-lab\data\silver\documents\documents_silver.parquet

@@ -1,0 +1,4 @@
+transaction_id,customer_id,transaction_date,amount,payment_status,_bronze_ingested_at_utc,_bronze_batch_id,_source_file,_record_hash,archive_rule_applied,archive_decision,archived_at_utc,archive_storage_zone
+T1001,C001,2025-01-10,245.75,completed,2026-05-14T18:02:48.397702+00:00,BRZ-20260514180247,transactions.csv,ec3d904cc54d7add187944e561ffcbb5abdabcc8db7b71561f27343847cb9734,,retain_active,,
+T1002,C002,2025-01-12,980.0,completed,2026-05-14T18:02:48.397702+00:00,BRZ-20260514180247,transactions.csv,ae1977b8700b280929c417d5fbd4e7e881b34e05b68bea43dcf76c9ec5b418d8,,retain_active,,
+T1004,C999,2025-02-01,-45.0,error,2026-05-14T18:02:48.397702+00:00,BRZ-20260514180247,transactions.csv,bee44b245aece419e88090d5a12016b0aa52166d93cd93912f92043ff19dabf3,,retain_active,,
