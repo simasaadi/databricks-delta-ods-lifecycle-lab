@@ -1,0 +1,53 @@
+name: data-engineering-ci
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate sample data
+        run: python scripts/generate_sample_data.py
+
+      - name: Run bronze ingestion
+        run: python -m src.pipelines.ingest_bronze
+
+      - name: Run data quality checks
+        run: python -m src.quality.run_quality_checks
+
+      - name: Run silver transformation
+        run: python -m src.pipelines.transform_silver
+
+      - name: Run gold ODS build
+        run: python -m src.pipelines.build_ods_gold
+
+      - name: Run archive workflow
+        run: python -m src.pipelines.archive_records
+
+      - name: Run document indexing workflow
+        run: |
+          python -m src.indexing.document_index_builder
+          python -m src.indexing.search_demo
+
+      - name: Run tests
+        run: pytest
